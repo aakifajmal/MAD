@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: Oswald;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0) !important;
+    color: white;
+}
+
+.navbar .container-fluid{
+    width: 100%;
+    padding: 0 5rem 0 5rem;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.active{
+    color: #ea8282 !important;
+}
+
+
+
+.dropdown-item.active, .dropdown-item:active{
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar .nav-link{
+    color: white;
+    font-family: Antonio;
+    font-size: 25px;
+}
+
+.navbar .nav-link:hover{
+    color: #ea8282;
+}
+
+.navlinkrow{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-item{
+    font-family: Antonio;
+    font-size: 25px;
+    text-align: left !important;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+}
+
+.navbar .navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 15rem;
+}
+
+.navbar-nav li a{
+    text-align: center;
+}
+
+.loginbuttonrow{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.loginbtn, .registerbtn{
+    background-color: white;
+    color: black;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 20px;
+    padding: .3rem 1rem;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.loginbtn:hover, .registerbtn:hover{
+    background-color: #D3CDCD;
+    color: black;
+    cursor: pointer;
+}
+
+.homeinfosection{
+    width: 100%;
+    max-width: none;
+    padding: 2rem 3rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 13%, rgba(26,33,100,1) 95%);
+    color: white;
+}
+.homeinfosection h1, .homeinfosection h3{
+    font-family: Inter;
+    margin-bottom: .8em;
+}
+
+.homeinfosection h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.homeinfosection h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.homeinfosection p{
+    font-family: Roboto;
+    font-weight: light;
+    font-size: 15px;
+    margin: .25em;
+}
+
+.homeinfosection img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.homeinfosection .col-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.productheader *{
+    margin: 0;
+    padding: 0;
+}
+
+.productheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+.productheader .subheader{
+    position: absolute;
+    margin-top: 1.5rem;
+}
+
+.productheader h1, .productheader h2, .productheader p{
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.productheader h1{
+    font-size: 150px;
+    color: #D3CDCD;
+    letter-spacing: 20px;
+}
+
+.productheader h2{
+    font-size: 80px;
+    line-height: .8;
+}
+
+.productheader p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.products .productsrow{
+    padding: 1.5rem 4rem;
+}
+
+.products .div{
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 10px, rgba(0, 0, 0, 0.1) -5px 0px 10px;
+    background-color: white;
+    margin-bottom: 1.5rem;
+}
+
+.products img{
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.products a{
+    text-decoration: none;
+    color: black;
+}
+
+.products .content *{
+    margin: 0;
+    color: black;
+}
+.products .content p{
+    font-size: 20px;
+}
+
+.products h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.products .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productsrow .btn{
+    margin-top: .25rem;
+    padding: .4em 1em;
+    border-radius: .7em;
+    color: white;
+}
+
+.products .buttonrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5em;
+}
+
+.buttonrow button{
+    width: 20%;
+    border-radius: .8em;
+    border: black solid 1px;
+}
+
+.bg2{
+    background-color: #F6F6F6;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 1.5rem 4rem 0 4rem;
+}
+
+.footer *{
+    color: white;
+}
+
+.navrow{
+    display: flex;
+    align-items: center;
+    border-bottom: white solid 2px;
+    justify-content: space-between;
+}
+
+.navrow div{
+    display: flex;
+    gap: 20px;
+}
+
+.navrow a{
+    font-family: Antonio;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footballheroheader, .athleticheroheader, .cricketheroheader, .basketballheroheader, .swimmingheroheader, .badmintonheroheader, .otherheroheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 369px;
+    background-image: url(images/footballcover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem;
+}
+
+.athleticheroheader{
+    background-image: url(images/athleticcover.png);
+}
+
+.cricketheroheader{
+    background-image: url(images/cricketcover.png);
+}
+
+.basketballheroheader{
+    background-image: url(images/basketballcover.png);
+}
+
+.swimmingheroheader{
+    background-image: url(images/swimmingcover.png);
+}
+
+.badmintonheroheader{
+    background-image: url(images/badmintoncover.png);
+}
+
+.otherheroheader{
+    background-image: url(images/othercover.png);
+}
+
+.heroheader h1{
+    font-family: Inter;
+    font-weight: bolder;
+    font-size: 56px;
+    color: black;
+}
+
+.heroheader p{
+    font-family: Antonio;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.filter{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    max-width: none;
+}
+
+.filter .nav-link{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+}
+
+.filter .nav-link:hover{
+    color: #D3CDCD;
+}
+
+
+.contactheader h1{
+    font-family: Antonio;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 56px;
+    color: black;
+}
+
+.formcontainer{
+    padding: 0 15rem;
+}
+
+.formcontainer label{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.formcontainer input, .formcontainer textarea{
+    width: 100%;
+    padding: .5rem;
+    margin: .5rem 0;
+    border-radius: .5rem;
+    border: 1px solid #838383;
+}
+
+.aboutus h2{
+    font-family: Antonio;
+    font-size: 56px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.aboutus h3{
+    font-family: Antonio;
+    font-size: 36px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.aboutus h5{
+    font-family: Antonio;
+    font-size: 24px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.aboutus p{
+    font-family: Poppins;
+    font-size: 18px;
+    color: black;
+    margin-bottom: .5em;
+}
+
+.product-details h2
+{
+    font-family: Antonio;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: .5rem;
+}
+
+.product-details .product-price{
+    font-family: Antonio;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(247, 80, 80);
+    margin-bottom: .5rem;
+}
+
+/* cart */
+
+.cartcontainer h1{
+    font-family: Antonio;
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 1em;
+}
+
+.cartcontainer h3{
+    font-family: Antonio;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.cartcontainer p{
+    font-family: Antonio;
+    font-size: 20px;
+    color: black;
+    margin-bottom: .5em;
+}
+
+.cartcontainer img{
+    width: 150px;
+}
+
+.cartcontainer span{
+    font-size: 20px; margin: 0 1rem;
+}
+
+.pricecol p{
+    float: right;
+}
+
+.btncontpayment, .btncontshop{
+    margin: 0; width: 100%; margin-bottom: .5rem;
+}
+
+.btncontshop:hover{
+    background-color: rgb(93, 93, 93) !important;
+}
